@@ -1,16 +1,86 @@
+:root{
+    --verde: #09c846;
+    --naranja: #f68a2b;
+    --cielo: #d8d8f2;
+    --azul: #260fbc;
+    --blanco: #ffffff;
+}
+
 body {
-    background-color: #8FD4FA;
-    color: DarkBlue;
+    background-color: var(--cielo);
+    background-image:url('../img/guarderia.jpg') ;
+    color: var(--azul);
+    margin: auto;
 }
 
 header{
-    background-color: green;
+    background-color: rgb(77, 164, 77);
+}
+header img{
+    width: 300px;
+    height: 200px;
+}
+
+nav ul{
+    list-style: none ;
+    text-align: right;
+}
+
+nav li{
+    display:block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: var(--blanco);
+    text-decoration: solid;
+    font-family: "Henny Penny", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+img{
+    max-width: 80%;
+}
+.boton{
+    display: inline-block;
+    background-color: #f68a2b;
+    color: var(--azul);
+    padding-bottom: 12px 28px 12px 28px;
+    margin: 20px 0;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: "Henny Penny", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+
+}
+.boton:hover{
+    background-color: var(--cielo);
+    color: var(--verde);
+}
+#inicio{
+   text-align: center; 
+}
+#inicio img {
+
+    width: 300px;
+    height: 400px;
+    border-radius: 30px;
+
+}
+h1 h2 h3{
+    color: var(--verde);
+    font-family: henny;
+    font: weight 400px;
+
 }
 p {font-size: 20pt;
 
 }
 #eslogan {
-    color: blue;
+    color: red;
     font-size: 30pt;
 }
 .parrafo {
